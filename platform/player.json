@@ -1,9 +1,0 @@
-{
-  "rect_width": 40,
-  "rect_height": 40,
-  "speedx": 5,
-  "jumpPower": 50,
-  "go_left": "LEFT",
-  "go_right": "RIGHT",
-  "jump": "LCTRL"
-}
