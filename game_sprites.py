@@ -49,7 +49,7 @@ class Player(pygame.sprite.Sprite):
 
         for event in events:
             if event.type == pygame.KEYDOWN:
-                if event.key == KEYS[self.player_data["jump"]] and hits:
+                if keystate[KEYS[self.player_data["jump"]]] and hits:
                     self.rect.y -= self.player_data["jumpPower"]
 
         return None
